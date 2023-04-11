@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import TestComp from './testComp';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-Welcome        </p>
+        <TestComp/>
         <a
           className="App-link"
           href="https://reactjs.org"
